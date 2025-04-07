@@ -1,0 +1,35 @@
+.preview-template.classico {
+    font-family: Georgia, serif;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .preview-template.moderno {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .preview-template.colorido {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
+  }
+  
+  .preview-template.clean {
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    color: #111;
+  }
+  
+  .preview-template.sidebar {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #fff;
+  }
+  
+  .preview-template.sidebar > *:first-child {
+    background-color: #f1f1f1;
+    padding: 1rem;
+  }
+  

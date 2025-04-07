@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+/* Exemplo no globals.css ou no arquivo de estilos global */
+
+.preview-classico {
+  font-family: 'Times New Roman', serif;
+}
+
+.preview-moderno {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
+}
+
+.preview-minimalista {
+  font-family: Arial, sans-serif;
+  border-left: 4px solid #333;
+  padding-left: 1rem;
+}
