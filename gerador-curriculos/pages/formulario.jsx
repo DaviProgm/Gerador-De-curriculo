@@ -42,7 +42,7 @@ export default function Formulario() {
 
     return (
         <main className="max-w-2xl mx-auto p-4">
-            <ProgressBar step={step} totalSteps={8} />
+            <ProgressBar currentStep={step} totalSteps={8} />
 
             {step === 1 && (
                 <Step1DadosPessoais
